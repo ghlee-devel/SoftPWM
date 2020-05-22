@@ -7,7 +7,7 @@
 
 #include "TEST.h"
 //using namespace Palatis;
-
+  1
 int a = 0;
 extern int aa;
 int b;
