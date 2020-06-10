@@ -1,5 +1,5 @@
 #include <SoftPWM.h>
-SOFTPWM_PIN_CHANNEL(A3); //SoftPWM으로 사용할 핀 설정
+SOFTPWM_DEFINE_CHANNEL(A3); //SoftPWM으로 사용할 핀 설정
 
 void setup() {
   SoftPWM.begin(490); //PWM frequency 설정
