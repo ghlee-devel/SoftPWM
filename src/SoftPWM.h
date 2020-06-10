@@ -10,7 +10,7 @@
 //    SoftPWM.update(); \
 //  }
 
-#define SOFTPWM_PIN_CHANNEL(PIN)\
+#define SOFTPWM_DEFINE_CHANNEL(PIN)\
   CSoftPWM SoftPWM(PIN);\
   ISR(TIMER1_COMPA_vect) { \
     interrupts(); \
